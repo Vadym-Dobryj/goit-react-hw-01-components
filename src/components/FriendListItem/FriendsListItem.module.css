@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 2px 3px 2px rgb(0 0 0 / 10%), 0px 2px 2px rgb(0 0 0 / 10%),
+    0px 2px 2px rgb(0 0 0 / 12%), 0px 3px 2px rgb(0 0 0 / 10%);
+  border-top: 1px solid rgb(243, 242, 242);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.online {
+  margin-right: 30px;
+  font-size: 10px;
+  border: 10px solid green;
+
+  border-radius: 50%;
+}
+
+.offline {
+  margin-right: 30px;
+  font-size: 10px;
+
+  border: 10px solid tomato;
+  border-radius: 50%;
+}
+
+.avatar {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 25px;
+}

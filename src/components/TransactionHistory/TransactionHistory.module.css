@@ -1,0 +1,25 @@
+.transaction {
+  width: 500px;
+  margin: 0 auto 50px;
+  text-align: center;
+  box-shadow: 2px 3px 2px rgb(0 0 0 / 10%), 0px 2px 2px rgb(0 0 0 / 10%),
+    0px 2px 2px rgb(0 0 0 / 12%), 0px 3px 2px rgb(0 0 0 / 10%);
+  border-top: 1px solid rgb(243, 242, 242);
+}
+
+.title {
+  padding: 15px;
+  color: rgb(247, 241, 241);
+  text-transform: uppercase;
+  background-color: rgb(86, 174, 230);
+}
+
+.row {
+  font-size: 15px;
+  color: lightslategray;
+  padding: 15px;
+}
+
+.data:nth-child(2n) {
+  background-color: rgb(245, 248, 250);
+}
