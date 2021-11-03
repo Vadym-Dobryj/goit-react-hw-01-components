@@ -1,10 +1,8 @@
 import PropTypes from 'prop-types';
-// import defaultImg from "../../default-images/unnamed.jpg";
 import styles from './FriendsList.module.css';
 import FriendListItem from '../FriendListItem/FriendListItem';
 
 const FriendsList = ({ friends }) => {
-  console.log(friends);
   return (
     <ul className={styles.friendList}>
       {friends.map(friend => (
@@ -15,10 +13,6 @@ const FriendsList = ({ friends }) => {
 };
 
 export default FriendsList;
-
-// FriendsList.defaultProps = {
-//   avatar: defaultImg,
-// };
 
 FriendsList.propTypes = {
   friends: PropTypes.arrayOf(
